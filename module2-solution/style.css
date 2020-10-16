@@ -1,0 +1,158 @@
+h1{
+	font-style: "lorem ipsum";
+	text-align: center;
+}
+h3{
+	font-style: "lorem ipsum";	
+	text-align: center;
+}
+p{
+	font-style: "lorem ipsum";	
+}
+
+{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#box1{
+	width: 35%;
+	background-color: blue;
+	border: 5px solid black;
+	margin-right:0px;
+	margin-top: 0px;
+	position: relative;
+	top: -15px;
+	left: 66%;
+}
+#box2{
+	width: 35%;
+	background-color: red;
+	border: 5px solid black;
+	margin-right:0px;
+	margin-top: 0px;
+	position: relative;
+	top: -15px;
+	left: 66%;
+}
+#box3{
+	width: 35%;
+	background-color: yellow;
+	border: 5px solid black;
+	margin-right:0px;
+	margin-top: 0px;
+	position: relative;
+	top: -15px;
+	left: 66%;
+} 
+@media (min-width: 991px) {
+  .col1 {
+    width: 30%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin : auto;
+	float:left;
+  }
+  .col2 {
+    width: 30%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin : auto;
+  	float:left;
+
+  }
+  .col3{
+  	width: 30%;
+  	background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin : auto;
+  	float:left;
+
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col1 {
+    width: 40%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+  .col2 {
+    width: 40%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+  .col3 {
+  	width: 80%;
+  	background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+}
+@media (max-width: 768px) {
+  .col1 {
+    width: 80%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+  .col2 {
+    width: 80%;
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+  .col3 {
+  	width: 80%;
+  	background-color: gray;
+    padding: 10px;
+    border: 5px solid black;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	float:left;
+
+  }
+}
